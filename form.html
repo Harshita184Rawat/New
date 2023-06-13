@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        h1{
+            color:navy;
+            background-color: rgb(192, 245, 229);
+            text-align: center;
+        }
+    </style>
+</head>
+<body >
+    <form action="" style="background-color: rgb(250, 250, 255);">
+        <br><br>
+        <h1>Registration Page</h1>
+        <fieldset>
+            <legend><b>Personal Details</b></legend>
+            <label for="name" id="name" >Enter your name: </label>
+            <input type="text" placeholder="Name">
+            <br><br>
+            <label for="password" id="password" > Enter your password:</label>
+            <input type="password" placeholder="123#hsgdh" required>
+            <br><br>
+            <label for="email"id="email">Email address:</label>
+            <input type="email" placeholder="" required>
+            <br><br>
+            <label for="number" id="number">Enter your age:</label>
+            <input type="number" placeholder="18+" min="18">
+            <br><br>
+            <label for="date" >Date of Birth: </label>
+            <input type="date" id="date" min="2002-04-18" max="2030-04-18">
+            <br><br>
+            <label for="file" id="file">Upload you resume:</label>
+            <input type="file" multiple>
+        <br><br>
+        </fieldset>
+        <br><br>
+        <label for="url" id="url">Github link:</label>
+        <input type="url">
+        <br><br>
+        <p>Provide your gender:</p>
+        <label for="female">female</label>
+        <input type="radio" id="female" name="">
+        <label for="male">male</label>
+        <input type="radio" id="male" name="group">
+        <label for="others">others</label>
+        <input type="radio" id="others" name="group">
+        <br><br>
+        <p>preferred Languages:</p>
+        <label for="english">English</label>
+        <input type="checkbox" id="english">
+        <label for="hindi">Hindi</label>
+        <input type="checkbox" id="hindi">
+        <label for="german">German</label>
+        <input type="checkbox" id="german">
+        <label for="french">French</label>
+        <input type="checkbox" id="french">
+        <br><br>
+        <label for="courses">Choose your courses: </label>
+        <select size="2">
+            <option value="">DSA</option>
+            <option value="">Cloud Computing</option>
+            <option value="">Python</option>
+            <option value="">IoT</option>
+            <option value="" disabled >DBMS</option>
+            <option value="">Data Science</option>
+        </select>
+        <br><br>
+        <label for="batch">Batch: </label>
+        <input type="text" readonly value="Primus-C">
+        <br><br>
+        <label for="mobile">Mobie Number:</label>
+        <input type="tel" id="mobile" pattern="[2-5]{7}-[3-7]{1}" placeholder="">
+        <br><br>
+        <label for="description">description:</label>
+        <input type="textarea" row="200" col="100" id="desription">
+        <br><br>
+        <label for="datetime">Date/Time:</label>
+        <input type="datetime-local" id="datetime">
+        <br><br>
+            <label for="Describe">Describe:</label>
+            <input type="text" id ="Describe" maxlength="4">
+        <br><br>
+
+        <label for="courses">Choose your courses: </label>
+        <input type="text" list="courses" >
+        <datalist id="courses">
+            <option value="DSA"></option>
+            <option value="Cloud Computing"></option>
+            <option value="Python"></option>
+            <option value="IoT"></option>
+            <option value="DBMS" disabled ></option>
+            <option value="Data Science"></option>
+        </datalist>
+        <br><br>
+        <label for="image" id="image"></label>
+        <input type="image" src="https://th.bing.com/th/id/R.4572cd946166f0ce9d542d2ba7552e0a?rik=Qhy516HeWBwtTg&riu=http%3a%2f%2fwww.clker.com%2fcliparts%2fR%2fJ%2fH%2f8%2fD%2fq%2fsubmit-button-hi.png&ehk=KMlEjdOHwHOThmkAdn%2f09qoC%2frRNkGrjlQYDcy3WdoU%3d&risl=&pid=ImgRaw&r=0" height="50">
+        <br><br>
+        <!-- <input type="submit" value="Login"> -->
+        
+        
+    </form>
+</body>
+</html>
