@@ -14,7 +14,9 @@ a{
 }
 a:hover{
     text-decoration: underline solid black 3px;
+    margin-bottom: 5px;
     padding-bottom: 5px;
+
     
 }
 
@@ -85,4 +87,24 @@ p{
 #heart{
     padding-left: 1400px;
     margin-top: -10px;
+}
+
+
+.gallery{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 50%;
+    float: left;
+}
+
+button{
+    align-items: center;
+}
+
+h3{
+    text-align: center;
 }
