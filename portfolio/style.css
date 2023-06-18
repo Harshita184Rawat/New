@@ -1,0 +1,45 @@
+body{
+    margin-left: 30px;
+    background-color: rgb(179, 206, 205);
+}
+ul{
+    list-style-type: none;
+    
+}
+nav{
+    background-color: rgb(219, 207, 207);
+    width: 100%;
+}
+li{
+    float:left;
+    padding: 40px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a:hover{
+    text-decoration: underline solid black 3px;
+}
+
+img{
+    align-items: flex-start;
+}
+
+#intro{
+    width: 100%;
+}
+
+#profile-image, #intro-para{
+    float: left;
+
+}
+#about{
+    font-size: 25px;
+}
+
+#skill-list{
+    list-style-type: none;
+}
